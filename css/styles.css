@@ -25,11 +25,9 @@ body{
 }
 .head-page .logo:hover, .head-page .logo:focus{
     color: var(--hover-text-color);
-    text-decoration: underline;
 }
 .head-page .logo:active{
     color: var(--hover-text-color);
-    text-decoration: underline;
 }
 .address-page .link{
     text-decoration: none ;
@@ -103,4 +101,7 @@ color: var(--title-text-color);
 }
 .end .end-abs{
     color:rgba(244, 244, 253, 1);
+}
+.footer-logo:hover, .footer-logo:focus{
+    color: var(--hover-text-color);
 }
