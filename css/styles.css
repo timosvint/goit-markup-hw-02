@@ -55,7 +55,7 @@ body{
 .hero-section{
     background-color: var(--title-text-color);
 }
-.hero {
+.hero-section .hero {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.1;
@@ -63,7 +63,7 @@ body{
     color:#FFFFFF;
     background-color: var(--title-text-color);
 }
-.Solution {
+.button .solution {
     cursor: pointer;
     background-color: rgba(77, 90, 229, 1);
     color: #FFFFFF;
@@ -75,7 +75,7 @@ body{
 .Solution:hover, .Solution:focus {
    background-color: rgba(64, 75, 191, 1);
 }
-.example {
+.our-method .list, .our-team-page .list {
 font-weight: 500;
 line-height: 1.2;
 color: var(--title-text-color);
@@ -83,7 +83,8 @@ color: var(--title-text-color);
 .our-team-page{
     background-color: rgba(244, 244, 253, 1);
 }
-.method{
+.our-method .method,
+.our-team-page .method {
     font-weight: 700;
     color: var(--title-text-color);
     font-size: 36px;
@@ -93,7 +94,7 @@ color: var(--title-text-color);
 .end{
     background-color: var(--title-text-color);
 }
-.footer-logo{
+.end .footer-logo{
     text-transform: uppercase;
     font-family: "Raleway", sans-serif;
     color:#FFFFFF;
